@@ -159,6 +159,7 @@ const CoffeeStore = (initialProps) => {
             height={360}
             className={styles.storeImg}
             alt={name}
+            priority={true}
           />
         </div>
 
@@ -170,6 +171,7 @@ const CoffeeStore = (initialProps) => {
                 width="24"
                 height="24"
                 alt="places icon"
+                priority={true}
               />
               <p className={styles.text}>{address}</p>
             </div>
@@ -181,6 +183,7 @@ const CoffeeStore = (initialProps) => {
                 width="24"
                 height="24"
                 alt="near me icon"
+                priority={true}
               />
               <p className={styles.text}>{neighbourhood}</p>
             </div>
@@ -191,6 +194,7 @@ const CoffeeStore = (initialProps) => {
               width="24"
               height="24"
               alt="star icon"
+              priority={true}
             />
             <p className={styles.text}>{votingCount}</p>
           </div>
